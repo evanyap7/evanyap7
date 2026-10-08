@@ -1,0 +1,5 @@
+.venv/
+assets/photo.jpg
+assets/source-*.png
+__pycache__/
+.DS_Store
