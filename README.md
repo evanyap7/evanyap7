@@ -15,8 +15,8 @@
 
 <div align="center">
 
-<h3>evan@github ~ $ cat now.txt</h3>
+<br>
 
-Building AI agents and polished web experiences · SUTD '30
+<img src="now.svg" width="860" alt="now.txt">
 
 </div>

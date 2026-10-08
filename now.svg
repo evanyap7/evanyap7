@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="200" viewBox="0 0 860 200" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">
+<style>
+.o{opacity:0;animation:in .4s ease-out forwards}
+@keyframes in{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:translateX(0)}}
+.p{fill:#39d353;font-weight:bold}.c{fill:#c9d1d9}.k{fill:#58a6ff;font-weight:bold}.v{fill:#c9d1d9}
+</style>
+<rect width="100%" height="100%" rx="10" fill="#0d1117"/>
+<clipPath id="t"><rect x="158.4" y="32" width="0" height="24"><animate attributeName="width" values="0.0;8.4;16.8;25.2;33.6;42.0;50.4;58.8;67.2;75.6;84.0;92.4" keyTimes="0.000;0.091;0.182;0.273;0.364;0.455;0.545;0.636;0.727;0.818;0.909;1.000" calcMode="discrete" begin="0.5s" dur="0.99s" fill="freeze"/></rect></clipPath>
+<text x="24" y="48" class="p">evan@github ~ $ </text>
+<text x="158.4" y="48" class="c" clip-path="url(#t)">cat now.txt</text>
+<text class="o" x="24" y="78" style="animation-delay:1.74s"><tspan class="k">building</tspan><tspan class="v" x="116.4">ESG decarbonisation audit agent @ Univers</tspan></text>
+<text class="o" x="24" y="102" style="animation-delay:1.92s"><tspan class="k">shipping</tspan><tspan class="v" x="116.4">Telegram AI assistant · WebGL / Three.js interfaces</tspan></text>
+<text class="o" x="24" y="126" style="animation-delay:2.10s"><tspan class="k">training</tspan><tspan class="v" x="116.4">HYROX · powerlifting</tspan></text>
+<text class="o" x="24" y="150" style="animation-delay:2.28s"><tspan class="k">ask me</tspan><tspan class="v" x="116.4">AI agents · WebGL · SUTD · coffee</tspan></text>
+<text class="o p" x="24" y="180" style="animation-delay:2.46s">evan@github ~ $ </text>
+<rect x="158.4" y="167" width="8.4" height="16" fill="#39d353" opacity="0"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" begin="2.46s" repeatCount="indefinite"/></rect>
+</svg>

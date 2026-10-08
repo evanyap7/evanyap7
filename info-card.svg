@@ -1,26 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="397" viewBox="0 0 500 397" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12">
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="464" viewBox="0 0 500 464" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12">
 <style>
 .l{opacity:0;animation:in .4s ease-out forwards}
 @keyframes in{from{opacity:0;transform:translateX(-8px)}to{opacity:1;transform:translateX(0)}}
-.t{fill:#39d353;font-weight:bold}.k{fill:#58a6ff;font-weight:bold}.v{fill:#c9d1d9}.r{fill:#484f58}.h{fill:#39d353}
+.p{fill:#39d353;font-weight:bold}.c{fill:#c9d1d9}.k{fill:#58a6ff;font-weight:bold}.v{fill:#c9d1d9}.h{fill:#39d353;font-weight:bold}.r{fill:#21262d}
 </style>
 <rect width="100%" height="100%" rx="10" fill="#0d1117"/>
-<text class="l t" x="16" y="28" style="animation-delay:0.40s">evan@github</text>
-<text class="l r" x="16" y="45" style="animation-delay:0.52s">--------------------------------------</text>
-<text class="l" x="16" y="62" style="animation-delay:0.64s"><tspan class="k">Who</tspan><tspan class="v" x="90">Evan Yap · Singapore</tspan></text>
-<text class="l" x="16" y="79" style="animation-delay:0.76s"><tspan class="k">Uni</tspan><tspan class="v" x="90">SUTD · ESD + MSc Tech Entrepreneurship</tspan></text>
-<text class="l" x="16" y="96" style="animation-delay:0.88s"><tspan class="k">Now</tspan><tspan class="v" x="90">AI Business Consultant intern @ Univers</tspan></text>
-<text class="l" x="16" y="113" style="animation-delay:1.00s"><tspan class="k">Prev</tspan><tspan class="v" x="90">Founder, EvanYapFitness (2.2k followers)</tspan></text>
-<text class="l h" x="16" y="147" style="animation-delay:1.24s">▌Stack</text>
-<text class="l" x="16" y="164" style="animation-delay:1.36s"><tspan class="k">Langs</tspan><tspan class="v" x="90">Python · TypeScript · JavaScript · C++ · SQL</tspan></text>
-<text class="l" x="16" y="181" style="animation-delay:1.48s"><tspan class="k">Web</tspan><tspan class="v" x="90">Next.js · React · Node · Three.js · Vercel</tspan></text>
-<text class="l" x="16" y="198" style="animation-delay:1.60s"><tspan class="k">AI</tspan><tspan class="v" x="90">Vercel AI SDK · Gemini · Groq · Zod · Pub/Sub</tspan></text>
-<text class="l h" x="16" y="232" style="animation-delay:1.84s">▌Highlights</text>
-<text class="l" x="16" y="249" style="animation-delay:1.96s"><tspan class="k">Win</tspan><tspan class="v" x="90">Top 5 · Univers website revamp (live CEO pitch)</tspan></text>
-<text class="l" x="16" y="266" style="animation-delay:2.08s"><tspan class="k">Built</tspan><tspan class="v" x="90">Telegram AI assistant · 24 intents · 100% eval</tspan></text>
-<text class="l" x="16" y="283" style="animation-delay:2.20s"><tspan class="k">Built</tspan><tspan class="v" x="90">ESG audit agent · -3h research per facility</tspan></text>
-<text class="l" x="16" y="300" style="animation-delay:2.32s"><tspan class="k">Scholar</tspan><tspan class="v" x="90">SUTD Tech Entrepreneurship Programme</tspan></text>
-<text class="l h" x="16" y="334" style="animation-delay:2.56s">▌Off-duty</text>
-<text class="l" x="16" y="351" style="animation-delay:2.68s"><tspan class="k">Train</tspan><tspan class="v" x="90">HYROX · powerlifting</tspan></text>
-<text class="l" x="16" y="368" style="animation-delay:2.80s"><tspan class="k">Play</tspan><tspan class="v" x="90">guitar · floorball captain · coffee</tspan></text>
+<clipPath id="t"><rect x="133.2" y="16" width="0" height="18"><animate attributeName="width" values="0.0;7.2;14.4;21.6;28.8;36.0;43.2;50.4;57.6" keyTimes="0.000;0.125;0.250;0.375;0.500;0.625;0.750;0.875;1.000" calcMode="discrete" begin="0.3s" dur="0.64s" fill="freeze"/></rect></clipPath>
+<text class="p" x="18" y="30">evan@github ~ $ </text>
+<text class="c" x="133.2" y="30" clip-path="url(#t)">neofetch</text>
+<text class="l" x="18" y="52" style="animation-delay:1.14s"><tspan class="k">Name</tspan><tspan class="v" x="96">Evan Yap · Singapore</tspan></text>
+<text class="l" x="18" y="70" style="animation-delay:1.24s"><tspan class="k">Uni</tspan><tspan class="v" x="96">SUTD · ESD + MSc Tech Entrepreneurship</tspan></text>
+<circle cx="9" cy="84" r="2.5" fill="#39d353"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<text class="l" x="18" y="88" style="animation-delay:1.34s"><tspan class="k">Now</tspan><tspan class="v" x="96">AI Business Consultant intern @ Univers</tspan></text>
+<text class="l" x="18" y="106" style="animation-delay:1.44s"><tspan class="k">Prev</tspan><tspan class="v" x="96">Founder, EvanYapFitness (2.2k followers)</tspan></text>
+<text class="l h" x="18" y="142" style="animation-delay:1.64s">▌ Stack</text>
+<rect class="l r" x="75.6" y="138" width="406.4" height="1" style="animation-delay:1.64s"/>
+<text class="l" x="18" y="160" style="animation-delay:1.74s"><tspan class="k">Langs</tspan><tspan class="v" x="96">Python · TypeScript · JavaScript · C++ · SQL</tspan></text>
+<text class="l" x="18" y="178" style="animation-delay:1.84s"><tspan class="k">Web</tspan><tspan class="v" x="96">Next.js · React · Node · Three.js · Vercel</tspan></text>
+<text class="l" x="18" y="196" style="animation-delay:1.94s"><tspan class="k">AI</tspan><tspan class="v" x="96">Vercel AI SDK · Gemini · Groq · Zod · Pub/Sub</tspan></text>
+<text class="l h" x="18" y="232" style="animation-delay:2.14s">▌ Highlights</text>
+<rect class="l r" x="111.6" y="228" width="370.4" height="1" style="animation-delay:2.14s"/>
+<text class="l" x="18" y="250" style="animation-delay:2.24s"><tspan class="k">Won</tspan><tspan class="v" x="96">Top 5 · Univers website revamp (live CEO pitch)</tspan></text>
+<text class="l" x="18" y="268" style="animation-delay:2.34s"><tspan class="k">Agent</tspan><tspan class="v" x="96">ESG audit agent · -3h research per facility</tspan></text>
+<text class="l" x="18" y="286" style="animation-delay:2.44s"><tspan class="k">Bot</tspan><tspan class="v" x="96">Telegram AI assistant · 24 intents · 100% eval</tspan></text>
+<text class="l" x="18" y="304" style="animation-delay:2.54s"><tspan class="k">Scholar</tspan><tspan class="v" x="96">SUTD Tech Entrepreneurship Programme</tspan></text>
+<text class="l h" x="18" y="340" style="animation-delay:2.74s">▌ Off-duty</text>
+<rect class="l r" x="97.2" y="336" width="384.8" height="1" style="animation-delay:2.74s"/>
+<text class="l" x="18" y="358" style="animation-delay:2.84s"><tspan class="k">Train</tspan><tspan class="v" x="96">HYROX · powerlifting</tspan></text>
+<text class="l" x="18" y="376" style="animation-delay:2.94s"><tspan class="k">Play</tspan><tspan class="v" x="96">guitar · floorball captain · coffee</tspan></text>
+<rect class="l" x="18" y="401" width="16" height="12" rx="2" fill="#39d353" style="animation-delay:3.14s"/>
+<rect class="l" x="38" y="401" width="16" height="12" rx="2" fill="#26a641" style="animation-delay:3.14s"/>
+<rect class="l" x="58" y="401" width="16" height="12" rx="2" fill="#58a6ff" style="animation-delay:3.14s"/>
+<rect class="l" x="78" y="401" width="16" height="12" rx="2" fill="#a371f7" style="animation-delay:3.14s"/>
+<rect class="l" x="98" y="401" width="16" height="12" rx="2" fill="#f778ba" style="animation-delay:3.14s"/>
+<rect class="l" x="118" y="401" width="16" height="12" rx="2" fill="#ffa657" style="animation-delay:3.14s"/>
+<rect class="l" x="138" y="401" width="16" height="12" rx="2" fill="#e3b341" style="animation-delay:3.14s"/>
+<rect class="l" x="158" y="401" width="16" height="12" rx="2" fill="#c9d1d9" style="animation-delay:3.14s"/>
+<text class="l p" x="18" y="430" style="animation-delay:3.24s">evan@github ~ $ </text>
+<rect x="133.2" y="419" width="7.2" height="14" fill="#39d353" opacity="0"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" begin="3.24s" repeatCount="indefinite"/></rect>
 </svg>
