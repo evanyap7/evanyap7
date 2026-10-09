@@ -3,6 +3,7 @@ import datetime as dt
 import json
 import re
 import sys
+import time
 from pathlib import Path
 
 import requests
@@ -11,12 +12,30 @@ from bs4 import BeautifulSoup
 USER = sys.argv[1] if len(sys.argv) > 1 else "evanyap7"
 OUT = Path(__file__).resolve().parent.parent / "data" / "contributions.json"
 
-html = requests.get(
-    f"https://github.com/users/{USER}/contributions",
-    headers={"User-Agent": "profile-readme-refresh"},
-    timeout=30,
-).text
-soup = BeautifulSoup(html, "html.parser")
+URL = f"https://github.com/users/{USER}/contributions"
+
+
+def fetch_cells(attempts=5):
+    """GET the page, retrying on throttling / error pages until contribution cells show up."""
+    for i in range(1, attempts + 1):
+        try:
+            r = requests.get(
+                URL,
+                headers={"User-Agent": "Mozilla/5.0 (compatible; profile-readme-refresh)"},
+                timeout=30,
+            )
+            soup = BeautifulSoup(r.text, "html.parser")
+            if r.ok and soup.select("td.ContributionCalendar-day"):
+                return soup
+            print(f"attempt {i}: HTTP {r.status_code}, no cells; body starts: {r.text[:200]!r}")
+        except requests.RequestException as e:
+            print(f"attempt {i}: {e}")
+        if i < attempts:
+            time.sleep(10 * i)
+    sys.exit(f"no contribution cells after {attempts} attempts; see log above")
+
+
+soup = fetch_cells()
 
 # tooltips carry the exact counts: "3 contributions on October 7th." / "No contributions on ..."
 counts = {}
