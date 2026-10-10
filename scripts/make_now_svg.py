@@ -9,7 +9,7 @@ STATIC = os.environ.get("STATIC") == "1"
 PROMPT = "evan@github ~ $ "
 CMD = "cat now.txt"
 ROWS = [
-    ("building", "ESG decarbonisation audit agent @ Univers"),
+    ("building", "internal AI agent (details under NDA)"),
     ("shipping", "Telegram AI assistant · WebGL / Three.js interfaces"),
     ("training", "HYROX · powerlifting"),
     ("ask me", "AI agents · WebGL · SUTD · coffee"),

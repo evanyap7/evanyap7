@@ -11,7 +11,7 @@
 <text class="l" x="18" y="52" style="animation-delay:1.14s"><tspan class="k">Name</tspan><tspan class="v" x="96">Evan Yap · Singapore</tspan></text>
 <text class="l" x="18" y="70" style="animation-delay:1.24s"><tspan class="k">Uni</tspan><tspan class="v" x="96">SUTD · ESD + MSc Tech Entrepreneurship</tspan></text>
 <circle cx="9" cy="84" r="2.5" fill="#39d353"><animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
-<text class="l" x="18" y="88" style="animation-delay:1.34s"><tspan class="k">Now</tspan><tspan class="v" x="96">AI Business Consultant intern @ Univers</tspan></text>
+<text class="l" x="18" y="88" style="animation-delay:1.34s"><tspan class="k">Now</tspan><tspan class="v" x="96">AI Business Consultant intern</tspan></text>
 <text class="l" x="18" y="106" style="animation-delay:1.44s"><tspan class="k">Prev</tspan><tspan class="v" x="96">Founder, EvanYapFitness (2.2k followers)</tspan></text>
 <text class="l h" x="18" y="142" style="animation-delay:1.64s">▌ Stack</text>
 <rect class="l r" x="75.6" y="138" width="406.4" height="1" style="animation-delay:1.64s"/>
@@ -20,8 +20,8 @@
 <text class="l" x="18" y="196" style="animation-delay:1.94s"><tspan class="k">AI</tspan><tspan class="v" x="96">Vercel AI SDK · Gemini · Groq · Zod · Pub/Sub</tspan></text>
 <text class="l h" x="18" y="232" style="animation-delay:2.14s">▌ Highlights</text>
 <rect class="l r" x="111.6" y="228" width="370.4" height="1" style="animation-delay:2.14s"/>
-<text class="l" x="18" y="250" style="animation-delay:2.24s"><tspan class="k">Won</tspan><tspan class="v" x="96">Top 5 · Univers website revamp (live CEO pitch)</tspan></text>
-<text class="l" x="18" y="268" style="animation-delay:2.34s"><tspan class="k">Agent</tspan><tspan class="v" x="96">ESG audit agent · -3h research per facility</tspan></text>
+<text class="l" x="18" y="250" style="animation-delay:2.24s"><tspan class="k">Won</tspan><tspan class="v" x="96">Top 5 · corporate website revamp (live CEO pitch)</tspan></text>
+<text class="l" x="18" y="268" style="animation-delay:2.34s"><tspan class="k">Agent</tspan><tspan class="v" x="96">Internal AI research agent (under NDA)</tspan></text>
 <text class="l" x="18" y="286" style="animation-delay:2.44s"><tspan class="k">Bot</tspan><tspan class="v" x="96">Telegram AI assistant · 24 intents · 100% eval</tspan></text>
 <text class="l" x="18" y="304" style="animation-delay:2.54s"><tspan class="k">Scholar</tspan><tspan class="v" x="96">SUTD Tech Entrepreneurship Programme</tspan></text>
 <text class="l h" x="18" y="340" style="animation-delay:2.74s">▌ Off-duty</text>
