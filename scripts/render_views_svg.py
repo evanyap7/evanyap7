@@ -6,6 +6,7 @@ import datetime as dt
 import html
 import json
 import math
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -240,7 +241,6 @@ def terminal():
     write("contrib-terminal.svg", svg(W, fy + 20, style, body, prompt(cmd, "ty")))
 
 
-pulse()
-ring()
-streak()
-terminal()
+VIEWS = {"pulse": pulse, "ring": ring, "streak": streak, "terminal": terminal}
+for name in sys.argv[1:] or VIEWS:  # `render_views_svg.py streak` renders just that view
+    VIEWS[name]()
