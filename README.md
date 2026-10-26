@@ -2,6 +2,10 @@
 
 <img src="contrib-heatmap.svg" width="860" alt="GitHub contribution heatmap">
 
+<br>
+
+<img src="contrib-skyline.svg" width="860" alt="GitHub contributions as a 3D skyline, one block per day">
+
 </div>
 
 <br>
