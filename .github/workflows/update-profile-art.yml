@@ -20,10 +20,11 @@ jobs:
       - run: python scripts/fetch_contributions.py evanyap7
       - run: python scripts/render_heatmap_svg.py
       - run: python scripts/render_skyline_svg.py
+      - run: python scripts/render_views_svg.py
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: refresh contribution heatmap [skip ci]"
-          file_pattern: data/contributions.json contrib-heatmap.svg contrib-skyline.svg
+          file_pattern: data/contributions.json contrib-*.svg
           commit_user_name: evanyap7
           commit_user_email: evanyap7@gmail.com
           commit_author: evanyap7 <evanyap7@gmail.com>
