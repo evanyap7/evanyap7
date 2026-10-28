@@ -40,9 +40,9 @@ A public demo of source-grounded research with cited briefs and ESG claim verifi
 
 ## Stack
 
-**Languages:** Python, TypeScript, JavaScript, C++, C, SQL
-**Web:** Next.js, React, Node.js, Three.js, Vercel
-**AI and data:** LLM agents, Claude API, Vercel AI SDK, Groq, regression modelling
+- **Languages:** Python, TypeScript, JavaScript, C++, C, SQL
+- **Web:** Next.js, React, Node.js, Three.js, Vercel
+- **AI and data:** LLM agents, Claude API, Vercel AI SDK, Groq, regression modelling
 
 Off-duty: HYROX and powerlifting, guitar, floorball captain, coffee.
 
