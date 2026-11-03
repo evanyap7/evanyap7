@@ -20,13 +20,13 @@ An orchestrator agent that turns a text, photo or voice message into actions: ex
 
 **[Systematic Trading System](https://github.com/evanyap7/evans-trading-agent)**
 A ~7,500-line Python system for Webull SG. Strategies only propose; deterministic code sizes and risk-checks every order (2% daily-loss stop, 5% drawdown breaker, kill switch). Live trading paused since 1 Oct 2026.
-- 212 tests in CI, plus a walk-forward harness with deflated Sharpe and look-ahead tests
+- 263 tests in CI, plus a walk-forward harness with deflated Sharpe and look-ahead tests
 - Tested four ideas, including SEC Form 4 insider buying: none beat the index, and the write-ups say so
 - *Python, pandas, SQLite, Webull API*
 
 **[Parallel Match](https://github.com/evanyap7/Parallel-Match)** ([demo video](https://youtu.be/Qt4DRwWWmOo)), Microsoft x Premier League hackathon, team of 3
 A fan taps a borderline call and sees the match replayed as if it had gone the other way, with the change in win chance and its 95% interval. All clubs and players are synthetic.
-- 18-language interface, 137 Python tests
+- 18-language interface, 197 Python tests
 - *Python, React, TypeScript, Microsoft Agent Framework, Azure AI Foundry, MCP*
 
 **[AI Research Agent](https://github.com/evanyap7/ai-research-agent)** ([live](https://approved-research-agent.vercel.app))
