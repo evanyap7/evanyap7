@@ -1,5 +1,7 @@
 # Evan Yap
 
+<img src="hero.svg" width="860" alt="Terminal banner cycling through: builds AI agents and measures whether they work; ships production LLM systems, with evals; open to AI and software engineering internships">
+
 I build AI agents and measure whether they work.
 Seeking **AI and software engineering internships**.
 
