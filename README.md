@@ -15,13 +15,16 @@ BEng (Engineering Systems and Design) and MSc Technology Entrepreneurship at SUT
 
 <table>
   <tr>
-    <td width="33%" align="center"><a href="https://telegram-personal-assistant-sigma.vercel.app"><img src="assets/shot-ego.png" alt="EGO landing page"></a><br><b>EGO</b><br><sub>Telegram AI assistant</sub></td>
-    <td width="33%" align="center"><a href="https://univers-homepage-revamp.vercel.app"><img src="assets/shot-univers.png" alt="Univers website revamp"></a><br><b>Univers revamp</b><br><sub>Top 5 of 100 entries</sub></td>
-    <td width="33%" align="center"><a href="https://approved-research-agent.vercel.app"><img src="assets/shot-research.png" alt="AI research agent demo"></a><br><b>Research agent</b><br><sub>Cited ESG briefs</sub></td>
+    <td width="50%" align="center"><a href="https://telegram-personal-assistant-sigma.vercel.app"><img src="assets/demo-ego.gif" alt="Scrolling through the EGO landing page"></a><br><b>EGO</b><br><sub>Telegram AI assistant</sub></td>
+    <td width="50%" align="center"><a href="https://pm-web.agreeableflower-13af161d.japaneast.azurecontainerapps.io/"><img src="assets/demo-parallel.gif" alt="Parallel Match forking a match timeline when a penalty is removed, cutting the win chance from 29% to 15%"></a><br><b>Parallel Match</b><br><sub>What if the call went the other way?</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" align="center"><a href="https://approved-research-agent.vercel.app"><img src="assets/demo-research.gif" alt="Clicking through the research agent's practice areas and claim verification tab"></a><br><b>Research agent</b><br><sub>Cited ESG briefs</sub></td>
+    <td width="50%" align="center"><a href="https://univers-homepage-revamp.vercel.app"><img src="assets/demo-univers.gif" alt="Scrolling through the Univers website revamp"></a><br><b>Univers revamp</b><br><sub>Top 5 of 100 entries</sub></td>
   </tr>
 </table>
 
-<sub>Click a screenshot to open the live demo. Expand a project below for the details.</sub>
+<sub>Click a demo to open the live site. Expand a project below for the details.</sub>
 
 <details>
 <summary><b>EGO: Telegram personal assistant</b> · 97% routing accuracy on my own eval set</summary>
@@ -49,7 +52,7 @@ A ~7,500-line Python system for Webull SG. Strategies only propose; deterministi
 <details>
 <summary><b>Parallel Match</b> · Microsoft x Premier League hackathon, team of 3</summary>
 
-**[Parallel Match](https://github.com/evanyap7/Parallel-Match)** ([demo video](https://youtu.be/Qt4DRwWWmOo)), Microsoft x Premier League hackathon, team of 3
+**[Parallel Match](https://github.com/evanyap7/Parallel-Match)** ([live](https://pm-web.agreeableflower-13af161d.japaneast.azurecontainerapps.io/), [demo video](https://youtu.be/Qt4DRwWWmOo)), Microsoft x Premier League hackathon, team of 3
 A fan taps a borderline call and sees the match replayed as if it had gone the other way, with the change in win chance and its 95% interval. All clubs and players are synthetic.
 - 18-language interface, 197 Python tests
 - *Python, React, TypeScript, Microsoft Agent Framework, Azure AI Foundry, MCP*
