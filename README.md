@@ -32,6 +32,7 @@ BEng (Engineering Systems and Design) and MSc Technology Entrepreneurship at SUT
 **[EGO: Telegram personal assistant](https://github.com/evanyap7/telegram-personal-assistant)** ([live](https://telegram-personal-assistant-sigma.vercel.app))
 An orchestrator agent that turns a text, photo or voice message into actions: expenses, calendar, to-dos, email drafts and bill splits.
 - 97% routing accuracy (38/39) on my own eval set, re-run 2026-11-03
+- Friend scheduling: friends message the bot to find my free time and request a slot, which I approve with one tap. They only ever see free slots. The model reads their message but never my calendar.
 - ~74% faster expense sync through parallel parsing of Gmail Pub/Sub receipts
 - Haiku classifies, Sonnet orchestrates, Opus is the last resort; prompt-injection guardrails and AES-256-GCM
 - *Next.js, TypeScript, Vercel AI SDK, Claude API, GCP Pub/Sub*
